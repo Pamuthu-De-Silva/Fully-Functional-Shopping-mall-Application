@@ -1,0 +1,78 @@
+.coupan_card_set {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 25px 0;
+  gap: 10px;
+}
+.coupan_card {
+  width: 600px;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+  color: white;
+  background: linear-gradient(to right, #f85606, #f9a825);
+}
+
+.name_coupan {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.sub_para {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.price_coupan {
+  text-align: center;
+  font-size: 45px;
+  margin: 8px 0;
+  font-weight: bolder;
+}
+.datesub {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 500;
+}
+.flex_seb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coupancode {
+  background-color: white;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: black;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  display: flex;
+}
+.copy-feedback {
+  position: absolute;
+  background-color: white;
+  color: #f85606;
+  border-radius: 5px;
+  top: 65px;
+  font-size: 15px;
+  padding: 8px 20px;
+  left: 50%;
+  border: 1px solid #f85606;
+}
+/* Coupon.css */
+.expired {
+    color: red;
+    font-weight: bold;
+  }
+  .valid {
+    color: green;
+    font-weight: bold;
+  }
+  
