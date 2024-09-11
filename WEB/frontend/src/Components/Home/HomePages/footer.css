@@ -1,0 +1,36 @@
+.section_footer {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.sub_box {
+  flex: 1;
+}
+.footer_topic {
+  font-weight: 600;
+  font-size: 20px;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.footer_p {
+  cursor: pointer;
+}
+.icon_set_footer {
+  display: flex;
+  gap: 15px;
+  justify-content: start;
+  align-items: center;
+}
+.icon_s {
+  font-size: 30px;
+  padding: 3px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.iccon:hover {
+  color: #f85606;
+}
+.footer_ful{
+    background-color: rgba(156, 156, 156, 0.04);
+}

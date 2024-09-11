@@ -1,0 +1,52 @@
+.cont_main {
+  background-color: #f85606;
+  padding: 50px 10% 100px 10%;
+  color: white;
+  margin-bottom: 25px;
+}
+.con_topic {
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.conpara {
+  cursor: pointer;
+  font-size: 17px;
+}
+.contact-us-container {
+  margin: 0 auto;
+}
+.contact-us-form {
+  border: 1px solid #f85606;
+  padding: 20px;
+  width: 600px;
+  position: relative;
+  top: -100px;
+  left: 35%;
+  background-color: white;
+}
+
+.form-textarea,
+.form-input {
+  margin: 4px 0 8px 0;
+  border: 1px solid gray;
+  width: 100%;
+  padding: 3px 8px;
+  resize: none;
+}
+.form-label {
+  font-size: 18px;
+  font-weight: 500;
+}
+.form-group-submit {
+  text-align: center;
+}
+.form-button {
+  color: #f85606;
+  background-color: white;
+  border: 1px solid #f85606;
+  padding: 5px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}

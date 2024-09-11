@@ -1,0 +1,224 @@
+.auth_container {
+  background-color: #f8570619;
+}
+.login-container {
+  display: flex;
+  align-items: center;
+  width: 900px;
+  margin: 0 auto;
+  height: 100vh;
+}
+.login_container_new {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 0;
+  gap: 20px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.lft_auth {
+  flex: 1;
+}
+.riht_auth {
+  flex: 1;
+}
+.img_lftlog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px 20px 20px 10px;
+}
+
+.auth_input {
+  width: 95%;
+  margin: 5px 0 8px 0;
+  padding: 4px 10px;
+}
+.lable_auth {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 600;
+}
+.auth_topic {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 45px;
+  text-align: center;
+}
+.auth_topic_update {
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 43px;
+  text-align: center;
+}
+.authbtn {
+  width: 100%;
+  width: 95%;
+  padding: 4px 10px;
+  text-transform: uppercase;
+  margin: 25px 0;
+  color: #f85606;
+  border: 1px solid #f85606;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: white;
+}
+.authbtn:hover {
+  background-color: #f85606;
+  color: white;
+  font-weight: bold;
+}
+.link {
+  cursor: pointer;
+  color: #f85606;
+}
+.link:hover {
+  font-weight: bold;
+}
+.no_acc {
+  color: rgba(128, 128, 128, 0.76);
+  text-align: center;
+}
+.body_card_set {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+.profile_details {
+  border: 1px solid #f85606;
+  padding: 25px;
+}
+.itm_profile {
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.detail_pro {
+  font-weight: 400;
+}
+.probtn_set {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.delete_button {
+  color: red;
+  border: 1px solid red;
+  padding: 5px 15px;
+  cursor: pointer;
+  background-color: white;
+}
+.delete_button:hover {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+.update_button {
+  color: green;
+  border: 1px solid green;
+  padding: 5px 15px;
+  cursor: pointer;
+  background-color: white;
+}
+.update_button:hover {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+.right_card {
+  border: 1px solid #f85606;
+  flex: 1;
+  padding: 25px;
+  text-align: center;
+}
+.left_card {
+  flex: 1;
+}
+.coin_img {
+  width: 300px;
+}
+.welcomemsg {
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 25px 0;
+}
+.coin_count {
+  margin: 10px 0;
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.send_coin_btn {
+  background-color: white;
+  color: #f85606;
+  border: 1px solid #f85606;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.send_coin_btn:hover {
+  background-color: #f85606;
+  color: white;
+  font-weight: bold;
+}
+
+.from_container {
+  border: 1px solid #f85606;
+  padding: 20px;
+  margin: 20px auto;
+  width: 500px;
+}
+.topic_update {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+.from_label {
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+
+.from_input {
+  border: 1px solid #f85606;
+  margin: 4px 0 7px 0;
+  width: 100%;
+  padding: 3px 10px;
+}
+
+.from_btn {
+  display: flex;
+  margin: 20px auto 0 auto;
+  background-color: white;
+  border: 1px solid #f85606;
+  color: #f85606;
+  padding: 5px 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.from_btn:hover {
+  background-color: #f85606;
+  color: white;
+  font-weight: bold;
+}
+.avalabul {
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.poit{
+  cursor: pointer;
+}
