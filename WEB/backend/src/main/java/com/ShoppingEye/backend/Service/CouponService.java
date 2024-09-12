@@ -1,5 +1,7 @@
 package com.ShoppingEye.backend.Service;
 
+import com.ShoppingEye.backend.model.CouponModel;
+import com.ShoppingEye.backend.repository.CouponRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
