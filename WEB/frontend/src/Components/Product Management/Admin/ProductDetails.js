@@ -84,7 +84,7 @@ function ProductDetails() {
             >
               Add Product
             </button>
-            <input
+            {/* <input
               type="text"
               className="search_admin"
               placeholder="Search Here..."
@@ -93,7 +93,7 @@ function ProductDetails() {
             />
             <button className="add_btn_admin" onClick={handleDownloadPDF}>
               Generate Report
-            </button>
+            </button> */}
           </div>
           <table className="admin_table">
             <thead className="admin_table_head">
