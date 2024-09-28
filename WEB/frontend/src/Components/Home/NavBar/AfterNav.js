@@ -3,6 +3,7 @@ import "./nav.css";
 import Logo from "./img/logo.png";
 import { FaUserCircle } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
+
 function AfterNav() {
   const [activePage, setActivePage] = useState("");
 
@@ -13,6 +14,14 @@ function AfterNav() {
 
   // Determine if the current page is active
   const isActive = (path) => activePage === path;
+
+  // Handle logout process
+  const handleLogout = () => {
+    if (window.confirm("Do you want to log out?")) {
+      window.location.href = "/login"; // Navigate to login page
+    }
+  };
+
   return (
     <div>
       <div className="nav_bar">
@@ -70,6 +79,7 @@ function AfterNav() {
           >
             Contact Us
           </h3>
+
           <div className="nav_btn">
             <FaUserCircle
               className={`icon_nav ${
@@ -83,6 +93,10 @@ function AfterNav() {
               }`}
               onClick={() => (window.location.href = "/mycart")}
             />
+           <div className="nav_btn"></div>
+            <button className="log_btn" onClick={handleLogout}>
+              Logout
+            </button>
           </div>
         </div>
       </div>
