@@ -25,6 +25,8 @@ import UserDiscount from "./Components/Admin/Coupon/UserDiscount";
 import AminLogin from "./Components/Admin/AminLogin";
 import AdminDash from "./Components/Admin/AdminDash";
 import OrderDash from "./Components/Admin/OrderDash";
+import Shops from "./Components/Shops/Shops"
+import SellerProducts from "./Components/SellerProducts/SellerProducts"
 
 function App() {
   return (
@@ -61,6 +63,13 @@ function App() {
           <Route path="/updatecoupon/:id" element={<UpdateCoupon />} />
           <Route path="/adminlogin" element={<AminLogin />} />
           <Route path="/admindash" element={<AdminDash />} />
+
+           {/*-----------Shops-----------*/}
+           <Route path="/Shops" element={<Shops />} />
+
+           {/*-----------SellerProducts-----------*/}
+           <Route path="/seller/:seller" element={<SellerProducts  />} />
+
         </Routes>
       </React.Fragment>
     </div>

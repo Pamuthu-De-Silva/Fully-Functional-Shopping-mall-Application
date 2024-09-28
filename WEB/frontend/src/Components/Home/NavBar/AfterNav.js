@@ -42,7 +42,16 @@ function AfterNav() {
             }`}
             onClick={() => (window.location.href = "/productoage")}
           >
-            Product
+            Products
+          </h3>
+
+          <h3
+            className={`nav_item_action ${
+              isActive("/Shops") ? "nav_item_action_active" : ""
+            }`}
+            onClick={() => (window.location.href = "/Shops")}
+          >
+            Shops
           </h3>
 
           <h3
