@@ -73,7 +73,7 @@ function AdminDash() {
               value={searchTerm}
               onChange={handleSearchChange}
             />
-            <button className="add_btn_admin" onClick={handleDownloadPDF}>
+            {/* <button className="add_btn_admin" onClick={handleDownloadPDF}>
               Generate Report
             </button> */}
           </div>

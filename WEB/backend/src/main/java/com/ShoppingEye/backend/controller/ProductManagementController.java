@@ -179,7 +179,7 @@ import java.util.UUID;
 @CrossOrigin("http://localhost:3000")
 public class ProductManagementController {
 
-    private static final String UPLOAD_DIR = System.getProperty("user.dir") + "/uploads/";
+    private static final String UPLOAD_DIR = "C:\\Users\\Asus\\Documents\\GitHub\\Fully-Functional-Shopping-mall-Application\\uploads\\";
 
     @Autowired
     private ProductManagementRepository ProductManagementRepository;

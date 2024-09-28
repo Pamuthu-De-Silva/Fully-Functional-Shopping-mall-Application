@@ -91,9 +91,17 @@ function ProductDetails() {
               value={searchTerm}
               onChange={handleSearchChange}
             />
+<<<<<<< Updated upstream
             <button className="add_btn_admin" onClick={handleDownloadPDF}>
               Generate Report
             </button> */}
+=======
+            {/* 
+<button className="add_btn_admin" onClick={handleDownloadPDF}>
+  Generate Report
+</button>
+*/}
+>>>>>>> Stashed changes
           </div>
           <table className="admin_table">
             <thead className="admin_table_head">

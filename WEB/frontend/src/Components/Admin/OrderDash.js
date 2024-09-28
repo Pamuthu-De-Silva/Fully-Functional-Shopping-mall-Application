@@ -79,9 +79,13 @@ function OrderDash() {
               value={searchTerm}
               onChange={handleSearchChange}
             />
-            <button className="add_btn_admin" onClick={handleDownloadPDF}>
+           {/* <button className="add_btn_admin" onClick={handleDownloadPDF}>
               Generate Report
+<<<<<<< Updated upstream
             </button> */}
+=======
+            </button>*/}
+>>>>>>> Stashed changes
           </div>
           <table className="admin_table" id="order-table">
             <thead className="admin_table_head">
